@@ -10,6 +10,7 @@ A guide on various phoenix UI/UX components.
    * Button
 ## Theme
 For changing the Theme of your editor go to View-> Themes-> Current Theme-> choose any theme you want.
+![Screenshot (551)](https://user-images.githubusercontent.com/70806481/150331977-5d421dd7-5c36-42d7-ada2-6d574289a2f5.png)
 ### Light Theme
 It's is by default Theme
 ![image](https://user-images.githubusercontent.com/5336369/147869118-37a055be-5393-4ffc-8e79-ad929a82744e.png)
@@ -30,8 +31,7 @@ Steps to be followed
 1. ENTER  Ctrl-Shift-(C), it will automatically open the developers tool.
 2. Go and hover over the button component.
 3. In the developers console you can see button component.
-   * Code will look something like this.
-        * `<button class='btn btn--linkblue btn--medium' href='#'>Lonely</button>
-         `
-
-4.This is how you redirect your button to any of the functionality like save ,cancel etc.
+4. Code will look something like this , look at the highlighted part.
+  ![Screenshot (550)](https://user-images.githubusercontent.com/70806481/150331722-5c64781f-11a6-4085-bf78-93c1de89eb08.png)
+5.In the highlighted part you can wish to make the changes according to your requirements in future.
+6.This is how you redirect your button to any of the functionality like save ,cancel etc.
