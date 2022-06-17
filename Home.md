@@ -6,3 +6,7 @@ This wiki is mostly managed in source code. Please see [this wiki](https://githu
 ## Phoenix API Docs
 
 [Click here for API List](https://github.com/phcode-dev/phoenix/wiki/GitHub-API-Index)
+
+## Adding string tranlations
+
+[How To Add Translations](https://github.com/phcode-dev/phoenix/wiki/How-To-Add-Translations)
