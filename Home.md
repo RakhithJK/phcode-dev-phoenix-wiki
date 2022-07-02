@@ -5,7 +5,8 @@ This wiki is mostly managed in source code. Please see [this wiki](https://githu
 
 ## Phoenix API Docs
 
-[Click here for API List](https://github.com/phcode-dev/phoenix/wiki/GitHub-API-Index)
+* [Click here for API List](https://github.com/phcode-dev/phoenix/wiki/GitHub-API-Index)
+* [Customize file and folder icons in the files panel](https://github.com/phcode-dev/phoenix/wiki/Customize-Icons-For-File-And-Folder)
 
 ## Adding string tranlations
 
