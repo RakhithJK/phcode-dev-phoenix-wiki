@@ -59,9 +59,7 @@ provider.beautify = function(editor) {
                 ranges:{
                     replaceStart: {line,ch},
                     replaceEnd: {line,ch}
-                },
-                // optional cursorIndex if given will place cursor on given position.
-                cursorIndex: number
+                }
             });
         });
     };
@@ -75,10 +73,7 @@ doesn't want any further processing from BeautificationManager.) or contain the 
 1.  `changedText` - string, this should be the fully prettified text of the whole file or a fragment of pretty text
     if a range was selected.
     *   If a range is returned, then the beautification manger will replace only the range with changed text in editor.
-        range takes precedence over cursor index.
-    *   optional cursorIndex if given will place cursor on given position.
 2.  `ranges` - Optional object, set of 2 cursors that gives details on what range to replace with given changed text.
     If range is not specified, the full text in the editor will be replaced. range has 2 fields:
     1.  `replaceStart{line,ch}` - the start of range to replace
     2.  `replaceEnd{line,ch}` - the end of range to replace
-3.  `cursorIndex{number}` - Where to place the cursor after the text is replaced in editor. Note: this is number offset.
