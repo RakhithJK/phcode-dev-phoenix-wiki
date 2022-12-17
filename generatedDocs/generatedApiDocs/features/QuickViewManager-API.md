@@ -187,6 +187,19 @@ Type: [function][5]
 
 Returns **[boolean][6]** 
 
+## lockQuickView
+
+locks the current QuickView if shown to be permanently displayed on screen till the `unlockQuickView` function
+is called or document changes.
+
+Type: [function][5]
+
+## unlockQuickView
+
+unlocks the current QuickView locked by `lockQuickView` fucntion.
+
+Type: [function][5]
+
 [1]: generatedDocs/images/quick-view-image.png
 
 [2]: generatedDocs/images/quick-view-youtube.png
